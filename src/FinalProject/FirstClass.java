@@ -2,6 +2,7 @@
  * 
  */
 package FinalProject;
+import javax.swing.JOptionPane;
 
 /**
  * @author RA316282
@@ -16,25 +17,18 @@ public class FirstClass {
 	{
 		
 		String userName, userAge, userHomeLand, userFavFood, userPurpose;
-		System.out.println("You were recently just added into a class called Java Programming. \nThe principal decides to walk to where your next class you will be. \nShe walks you to the class number 161.");
-		System.out.println("");
-		System.out.println("");
-		System.out.println("");
-		System.out.println("");
-		System.out.println("");
-		System.out.println("");
-		System.out.println("");
-		System.out.println("");
-		System.out.println("");
-		System.out.println("");
 		
-
-
 		userName = JOptionPane.showInputDialog(null, "What is your name?");
 		userAge = JOptionPane.showInputDialog(null, "What is your age?");
 		userHomeLand = JOptionPane.showInputDialog(null, "Where are you from? ");
 		userFavFood = JOptionPane.showInputDialog(null, "What is your favorite food? ");
 		userPurpose = JOptionPane.showInputDialog(null, "Why did you join this class? ");
+		
+		JOptionPane.showMessageDialog(null, "Your name is " + userName + " , you are " + userAge + " years old, " 
+				+ "\nyou are from " + userHomeLand + " your favorite food is " + userFavFood + " "
+				+ "\nand you decided to join my class because you said " + userPurpose + ". "
+				+ "\nUmm Interesting… Well the class has already started on their first assignment. "
+				+ "\nHere’s your book, there is your seat, and get to work. NOW!");
 
 	}
 
