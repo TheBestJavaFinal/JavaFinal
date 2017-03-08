@@ -26,7 +26,7 @@ public class FirstClass {
 		
 		JOptionPane.showMessageDialog(null, "Your name is " + userName + " , you are " + userAge + " years old, " 
 				+ "\nyou are from " + userHomeLand + " your favorite food is " + userFavFood + " "
-				+ "\nand you decided to join my class because you said " + userPurpose + ". "
+				+ "\nand you decided to join my class because you said '" + userPurpose + ".' "
 				+ "\nUmm Interesting… Well the class has already started on their first assignment. "
 				+ "\nHere’s your book, there is your seat, and get to work. NOW!");
 
