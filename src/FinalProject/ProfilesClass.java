@@ -27,16 +27,18 @@ public class ProfilesClass {
 		JOptionPane.showMessageDialog(null, "Well duh, you already know my name! Were you not listening to me before? Well I’m Charles! "
 				+ "I have had 3 classes with Mr. Brosius so if you need anything, you can ask me… I know just about everything, except github. "
 				+ "DO NOT ASK ME ABOUT GITHUB! ");
-		JOptionPane.showMessageDialog(null, "That’s Kassie, she knows ");
+		JOptionPane.showMessageDialog(null, "That’s Kassie she gets straight A’s and is very smart. In fact a little too smart… "
+				+ "Some say she hacked into some bank accounts and that is how she gets her money.   ");
 		JOptionPane.showMessageDialog(null, "Who are you talking…. WOW! He is actually here today!!! Usually he NEVER shows up! "
-				+ "There must be a special reason that he is here today… hmm… I don’t know. Anyway that’s Nick, why he is still trying to take"
-				+ " the class I don’t know.");
+				+ "There must be a special reason that he is here today… hmm… I don’t know. Anyway that’s Nick, why he is still trying to"
+				+ " take the class I don’t know.");
 		JOptionPane.showMessageDialog(null, "That is Mason");
-		JOptionPane.showMessageDialog(null, "Oh that is Sebastian. He is the teacher’s pet. You can count on him to be on his side. He agrees with everything he says..");
-		JOptionPane.showMessageDialog(null, "That is Zach. He is ");
-		JOptionPane.showMessageDialog(null, "That is Chase.");
+		JOptionPane.showMessageDialog(null, "Oh that is Sebastian. He is the teacher’s pet. You can count on him to be on his side. "
+				+ "He agrees with everything he says..");
+		JOptionPane.showMessageDialog(null, "That is Zach. Him, Mason, and Chase are all close friends with each other. ");
+		JOptionPane.showMessageDialog(null, "That is Chase. Him, Mason, and Zach are all close friends with each other.");
 		JOptionPane.showMessageDialog(null, "That is Isaiah. He complains about everything!!! But then he never does any work. ");
-		JOptionPane.showMessageDialog(null, "That is Mason. ");
+		JOptionPane.showMessageDialog(null, "That is Mason. Him, Zach and Chase, are all close friends with each other. ");
 
 	}
 
