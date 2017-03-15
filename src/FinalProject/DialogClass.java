@@ -69,6 +69,6 @@ public class DialogClass {
 	
 	JOptionPane.showMessageDialog(null, "Your name is " + userName + " , you are " + userAge + " years old, you are from " + 
 	userHomeLand + ", your favorite food is " + userFavFood + 
-	" and you decided to join my class because you said '" + userPurpose + ".");
+	" and you decided to join my class because you said '" + userPurpose + "'.");
 	}
 }
