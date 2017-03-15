@@ -16,29 +16,6 @@ public class Profiles {
 	public static void main(String[] args) 
 	{
 		{
-		int Brosius = 1;
-		int Ress = 2;
-		int Tatyana = 3;
-		int Charles = 4;
-		int Kassie = 5;
-		int Nick = 6;
-		int Andrew = 7;
-		int Sebastian = 8;
-		int Zach = 9;
-		int Chase = 10;
-		int Isaiah = 11;
-		int Mason = 12;
-		String studentString;
-		int studentNumber;
-		
-		    /*String[] options = new String[] {"Person 1", "Person 2", "Person 3", "Person 4", "Person 5", "Person 6", "Person 7", "Person 8", "Person 9", "Person 10", "Person 11", "Person 12", "Move on"};
-		    int response = JOptionPane.showOptionDialog(null, "Pick a person's number you would like to know more about", "The Classroom",
-		        JOptionPane.DEFAULT_OPTION, JOptionPane.PLAIN_MESSAGE,
-		        null, options, options[0]);
-		    
-		    studentString = (String)JOptionPane.showInputDialog("Please Scan item here>>>");
-			
-			studentNumber = Integer.parseInt(studentString);*/
 		Object[] People = {"Person 1", "Person 2", "Person 3", "Person 4", "Person 5", "Person 6", "Person 7", "Person 8", "Person 9", "Person 10", "Person 11", "Person 12",  "Move On" };
 		int n = JOptionPane.showOptionDialog(null, "Which person would you like to know about?", "Choose a person", JOptionPane.DEFAULT_OPTION, JOptionPane.QUESTION_MESSAGE, null, People, People[0] );
 		
