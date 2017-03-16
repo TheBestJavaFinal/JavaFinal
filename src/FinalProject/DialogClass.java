@@ -53,8 +53,6 @@ import javax.swing.JOptionPane;
     	}
     	public static void madLib()
     	{
-      
-   	 
     	userName = JOptionPane.showInputDialog(null, "What is your name?");
     	userAge = JOptionPane.showInputDialog(null, "What is your age?");
     	userHomeLand = JOptionPane.showInputDialog(null, "Where are you from? ");
@@ -64,17 +62,5 @@ import javax.swing.JOptionPane;
     	JOptionPane.showMessageDialog(null, "Your name is " + userName + " , you are " + userAge + " years old, you are from " +
     	userHomeLand + ", your favorite food is " + userFavFood +
     	" and you decided to join my class because you said '" + userPurpose + "'.");
-    	}
-    	public static void FirstDeath()
-    	{
-    		 JOptionPane.showMessageDialog(null, "Just then, the principal walks in very scared….");
-    		 JOptionPane.showMessageDialog(null, "Mr. Brosius: Is there something wrong, ma'am?");
-    		 JOptionPane.showMessageDialog(null, "Principal: I just came to check on the class.");
-    		 JOptionPane.showMessageDialog(null, "Principal hastily looks around, and quickly walks back to door.");
-    		 JOptionPane.showMessageDialog(null, "Okay I’m done….");
-    		 JOptionPane.showMessageDialog(null, "Before she gets to touch the doorknob, the lights FLASH!!! \nAnd thunder sounds… You hear the sound of the principal screams ");
-    		 JOptionPane.showMessageDialog(null, "Kassie screams");
-    		 JOptionPane.showMessageDialog(null, "OH MY GOD! THE PRINCIPAL IS DEAD!");
-    		 JOptionPane.showMessageDialog(null, "Right by the body, you find the murder weapon; a screwdriver.");
-    }
+    	}	
 }

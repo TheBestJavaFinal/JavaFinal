@@ -9,6 +9,7 @@ import javax.swing.JOptionPane;
  */
 public class Notes
 {
+	//This class holds an array of notes that the killer left behind. This class also 
     public static void Notes()
     {
    	 message();

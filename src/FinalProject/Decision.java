@@ -18,7 +18,7 @@ import java.util.ArrayList;
    		 
         	List<String> suspectList = new ArrayList <>(Arrays.asList("Brosius", "Ress", "Tatyana", "Charles", "Kassie", "Nick", "Andrew", "Sebastian", "Zach", "Chase", "Isaiah", "Mason"));
 // DONT FORGET TO REMOVE THIS RESS!!
-        	String comGuessKiller = suspectList.get(11);
+        	String comGuessKiller = suspectList.get(getRandom());
         	do
         	{
         	Object guessKiller = JOptionPane.showInputDialog(null, "Who do you believe is the murderer?", "Choose a person", JOptionPane.QUESTION_MESSAGE, null, suspectList.toArray(), suspectList.get(0));

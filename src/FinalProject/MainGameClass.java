@@ -14,9 +14,7 @@ public class MainGameClass {
 	{
 		DialogClass.prologue();
 		Profiles.Profiles();
-		DialogClass.FirstDeath();
-		Decision.Decision();
-
+		Decision.Decision(); 
 	}
 
 }
