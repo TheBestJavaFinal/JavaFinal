@@ -1,8 +1,4 @@
-/**
- * 
- */
 package FinalProject;
-
 import javax.swing.JOptionPane;
 
 
@@ -12,9 +8,8 @@ import javax.swing.JOptionPane;
  */
 public class DialogClass {
 
-	/**
-	 * @param args
-	 */
+	public static String userName,userAge, userHomeLand, userFavFood, userPurpose;
+	
 	public static void main(String[] args) 
 	{
 		prologue();
@@ -55,12 +50,9 @@ public class DialogClass {
 				+ "\nFrom what I can tell, you don’t seem to know anyone from this class! "
 				+ "\nDon’t worry, I know everyone here, just ask me, and I can tell you anything you would like about someone. ");
 		
-
 	}
 	public static void madLib()
 	{
-	String userName, userAge, userHomeLand, userFavFood, userPurpose;
-	
 	userName = JOptionPane.showInputDialog(null, "What is your name?");
 	userAge = JOptionPane.showInputDialog(null, "What is your age?");
 	userHomeLand = JOptionPane.showInputDialog(null, "Where are you from? ");
@@ -72,3 +64,5 @@ public class DialogClass {
 	" and you decided to join my class because you said '" + userPurpose + ".");
 	}
 }
+
+
