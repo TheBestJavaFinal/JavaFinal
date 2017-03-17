@@ -17,6 +17,7 @@ public class DialogClass {
 	}
 	public static void prologue()
 	{
+		//This is the beginning of the story. This well get the user well informed on what has happened.
 		JOptionPane.showMessageDialog(null, "You were recently just added into a class called Java Programming. "
 				+ "\nThe principal decides to walk to where your next class you will be. "
 				+ "\nShe walks you to the class number 161.");
@@ -37,15 +38,15 @@ public class DialogClass {
 		JOptionPane.showMessageDialog(null, "Mr. Brosius: Hello and welcome to the best class in the entire school!!! "
 				+ "\nTell me a little bit about yourself.");
 		JOptionPane.showMessageDialog(null, "You tell him your name, your age, where you are from, your favorite food, and why you joined this class. ");
-		
+		//This is where the mad lib is called
 		madLib();
 		
-		JOptionPane.showMessageDialog(null, "Um... Interesting… Well, the class has already started on their first assignment. "
+		JOptionPane.showMessageDialog(null, "Um... Interesting, " + userName + ". Well, the class has already started on their first assignment. "
 				+ "\nHere’s your book, there is your seat, and get to work. NOW!");
 		JOptionPane.showMessageDialog(null, "He has already sat in his seat by the time you are able to register anything. "
 				+ "\nYou take your book and sit in your seat. "
 				+ "\nThe person next to you decides to greet you.");
-		JOptionPane.showMessageDialog(null, "Person next to you: Hi! My name is Charles. "
+		JOptionPane.showMessageDialog(null, "Person next to you: Hi " + userName + "! My name is Charles! "
 				+ "\nI guess you are my partner for the next 9 weeks! "
 				+ "\nFrom what I can tell, you don’t seem to know anyone from this class! "
 				+ "\nDon’t worry, I know everyone here, just ask me, and I can tell you anything you would like about someone. ");
@@ -53,12 +54,13 @@ public class DialogClass {
 	}
 	public static void madLib()
 	{
+		//This is a funny mad libs for the user to do. Have Fun!!!
 	userName = JOptionPane.showInputDialog(null, "What is your name?");
 	userAge = JOptionPane.showInputDialog(null, "What is your age?");
 	userHomeLand = JOptionPane.showInputDialog(null, "Where are you from? ");
 	userFavFood = JOptionPane.showInputDialog(null, "What is your favorite food? ");
 	userPurpose = JOptionPane.showInputDialog(null, "Why did you join this class? ");
-	
+	//This ends the mad libs and tells the user the results.
 	JOptionPane.showMessageDialog(null, "Your name is " + userName + " , you are " + userAge + " years old, you are from " + 
 	userHomeLand + ", your favorite food is " + userFavFood + 
 	" and you decided to join my class because you said '" + userPurpose + ".");

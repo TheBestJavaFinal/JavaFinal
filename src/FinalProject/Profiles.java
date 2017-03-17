@@ -8,20 +8,23 @@ public class Profiles
 	{
 		Object[] People = {"Person 1", "Person 2", "Person 3", "Person 4", "Person 5", "Person 6", "Person 7", "Person 8", "Person 9", "Person 10", "Person 11", "Person 12"};
 		int n = JOptionPane.showOptionDialog(null, "Which person would you like to know about?", "Choose a person", JOptionPane.DEFAULT_OPTION, JOptionPane.QUESTION_MESSAGE, null, People, People[0] );
-		
+		//This tells you about everyone.
 		
 		switch(n)
 			 {
+		//This tells you about The teacher.
 				case 0:
 				 JOptionPane.showMessageDialog(null, " That’s just John. He is a huge pain in the… "
 				 + "\nwait I forgot you are a new classmate. He is the teacher, BUT…. he  is so annoying. "
 				 + "\nHe keeps messing with my projects and distracting me! So good luck trying to get anything done around him… "
 				 + "\nGood teacher though and he knows his stuff.");
 				 break;
+				//This tells you about my partner.
 				 case 1:
 				JOptionPane.showMessageDialog(null,"That’s Ress…. I cannot pronounce her last name… Anyway actually now that you mention her, "
 				+ "\nI don’t know much about her. She seems nice, but then again not everyone who seems nice is…");
 				break;
+				//This tells you about myself, and so on with the rest of the cases.
 				case 2:
 				JOptionPane.showMessageDialog(null,"That’s Tatyana. She knows everything, so if you have any questions, "
 				+ "\nshe’s the person to ask… although… she is a little bit mysterious so no one really approaches her. "

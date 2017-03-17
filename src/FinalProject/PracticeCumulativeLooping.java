@@ -9,7 +9,7 @@ package FinalProject;
  */
 public class PracticeCumulativeLooping {
 
-	/**
+	/** This is practice with arrays, because we did not know what we were doing with that.
 	 * @param args
 	 */
 	public static void main(String[] args) 

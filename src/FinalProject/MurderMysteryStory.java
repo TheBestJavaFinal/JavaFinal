@@ -14,6 +14,7 @@ public class MurderMysteryStory {
 	 */
 	public static void MurderMystery() 
 	{
+		//This one is self explanatory, this is continuing the story.
 		JOptionPane.showMessageDialog(null, "Just then, the principal walks in very scared…. ");
 		JOptionPane.showMessageDialog(null, "Mr. Brosius: Is there something wrong, mam? ");
 		JOptionPane.showMessageDialog(null, "Principal: I just came to check on the class. ");

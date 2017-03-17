@@ -16,7 +16,7 @@ import java.util.ArrayList;
    		 int count = 12;
    		 
         	List<String> suspectList = new ArrayList <>(Arrays.asList("Brosius", "Ress", "Tatyana", "Charles", "Kassie", "Nick", "Andrew", "Sebastian", "Zach", "Chase", "Isaiah", "Mason"));
-// DONT FORGET TO REMOVE THIS RESS!!
+
         	String comGuessKiller = suspectList.get(getRandom());
         	do
         	{
